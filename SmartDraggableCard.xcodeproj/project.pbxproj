@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AF0A4CC233509BF00F0E335 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF0A4CB233509BF00F0E335 /* AppDelegate.swift */; };
+		7AF0A4CE233509BF00F0E335 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF0A4CD233509BF00F0E335 /* ViewController.swift */; };
+		7AF0A4D1233509BF00F0E335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF0A4CF233509BF00F0E335 /* Main.storyboard */; };
+		7AF0A4D3233509C100F0E335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AF0A4D2233509C100F0E335 /* Assets.xcassets */; };
+		7AF0A4D6233509C100F0E335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF0A4D4233509C100F0E335 /* LaunchScreen.storyboard */; };
+		7AF0A4E1233509C100F0E335 /* SmartDraggableCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF0A4E0233509C100F0E335 /* SmartDraggableCardTests.swift */; };
+		7AF0A4EC233509C100F0E335 /* SmartDraggableCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF0A4EB233509C100F0E335 /* SmartDraggableCardUITests.swift */; };
+		7AF0A4FA23350A1400F0E335 /* DraggableSendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF0A4F923350A1400F0E335 /* DraggableSendView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AF0A4DD233509C100F0E335 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AF0A4C0233509BF00F0E335 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AF0A4C7233509BF00F0E335;
+			remoteInfo = SmartDraggableCard;
+		};
+		7AF0A4E8233509C100F0E335 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AF0A4C0233509BF00F0E335 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AF0A4C7233509BF00F0E335;
+			remoteInfo = SmartDraggableCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7AF0A4C8233509BF00F0E335 /* SmartDraggableCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartDraggableCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF0A4CB233509BF00F0E335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AF0A4CD233509BF00F0E335 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7AF0A4D0233509BF00F0E335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AF0A4D2233509C100F0E335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AF0A4D5233509C100F0E335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AF0A4D7233509C100F0E335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AF0A4DC233509C100F0E335 /* SmartDraggableCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartDraggableCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF0A4E0233509C100F0E335 /* SmartDraggableCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartDraggableCardTests.swift; sourceTree = "<group>"; };
+		7AF0A4E2233509C100F0E335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AF0A4E7233509C100F0E335 /* SmartDraggableCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartDraggableCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF0A4EB233509C100F0E335 /* SmartDraggableCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartDraggableCardUITests.swift; sourceTree = "<group>"; };
+		7AF0A4ED233509C100F0E335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AF0A4F923350A1400F0E335 /* DraggableSendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableSendView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AF0A4C5233509BF00F0E335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF0A4D9233509C100F0E335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF0A4E4233509C100F0E335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AF0A4BF233509BF00F0E335 = {
+			isa = PBXGroup;
+			children = (
+				7AF0A4CA233509BF00F0E335 /* SmartDraggableCard */,
+				7AF0A4DF233509C100F0E335 /* SmartDraggableCardTests */,
+				7AF0A4EA233509C100F0E335 /* SmartDraggableCardUITests */,
+				7AF0A4C9233509BF00F0E335 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AF0A4C9233509BF00F0E335 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AF0A4C8233509BF00F0E335 /* SmartDraggableCard.app */,
+				7AF0A4DC233509C100F0E335 /* SmartDraggableCardTests.xctest */,
+				7AF0A4E7233509C100F0E335 /* SmartDraggableCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AF0A4CA233509BF00F0E335 /* SmartDraggableCard */ = {
+			isa = PBXGroup;
+			children = (
+				7AF0A4CB233509BF00F0E335 /* AppDelegate.swift */,
+				7AF0A4CD233509BF00F0E335 /* ViewController.swift */,
+				7AF0A4F923350A1400F0E335 /* DraggableSendView.swift */,
+				7AF0A4CF233509BF00F0E335 /* Main.storyboard */,
+				7AF0A4D2233509C100F0E335 /* Assets.xcassets */,
+				7AF0A4D4233509C100F0E335 /* LaunchScreen.storyboard */,
+				7AF0A4D7233509C100F0E335 /* Info.plist */,
+			);
+			path = SmartDraggableCard;
+			sourceTree = "<group>";
+		};
+		7AF0A4DF233509C100F0E335 /* SmartDraggableCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AF0A4E0233509C100F0E335 /* SmartDraggableCardTests.swift */,
+				7AF0A4E2233509C100F0E335 /* Info.plist */,
+			);
+			path = SmartDraggableCardTests;
+			sourceTree = "<group>";
+		};
+		7AF0A4EA233509C100F0E335 /* SmartDraggableCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7AF0A4EB233509C100F0E335 /* SmartDraggableCardUITests.swift */,
+				7AF0A4ED233509C100F0E335 /* Info.plist */,
+			);
+			path = SmartDraggableCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AF0A4C7233509BF00F0E335 /* SmartDraggableCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AF0A4F0233509C100F0E335 /* Build configuration list for PBXNativeTarget "SmartDraggableCard" */;
+			buildPhases = (
+				7AF0A4C4233509BF00F0E335 /* Sources */,
+				7AF0A4C5233509BF00F0E335 /* Frameworks */,
+				7AF0A4C6233509BF00F0E335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartDraggableCard;
+			productName = SmartDraggableCard;
+			productReference = 7AF0A4C8233509BF00F0E335 /* SmartDraggableCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AF0A4DB233509C100F0E335 /* SmartDraggableCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AF0A4F3233509C100F0E335 /* Build configuration list for PBXNativeTarget "SmartDraggableCardTests" */;
+			buildPhases = (
+				7AF0A4D8233509C100F0E335 /* Sources */,
+				7AF0A4D9233509C100F0E335 /* Frameworks */,
+				7AF0A4DA233509C100F0E335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AF0A4DE233509C100F0E335 /* PBXTargetDependency */,
+			);
+			name = SmartDraggableCardTests;
+			productName = SmartDraggableCardTests;
+			productReference = 7AF0A4DC233509C100F0E335 /* SmartDraggableCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7AF0A4E6233509C100F0E335 /* SmartDraggableCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AF0A4F6233509C100F0E335 /* Build configuration list for PBXNativeTarget "SmartDraggableCardUITests" */;
+			buildPhases = (
+				7AF0A4E3233509C100F0E335 /* Sources */,
+				7AF0A4E4233509C100F0E335 /* Frameworks */,
+				7AF0A4E5233509C100F0E335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AF0A4E9233509C100F0E335 /* PBXTargetDependency */,
+			);
+			name = SmartDraggableCardUITests;
+			productName = SmartDraggableCardUITests;
+			productReference = 7AF0A4E7233509C100F0E335 /* SmartDraggableCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AF0A4C0233509BF00F0E335 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Jae Lee";
+				TargetAttributes = {
+					7AF0A4C7233509BF00F0E335 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					7AF0A4DB233509C100F0E335 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 7AF0A4C7233509BF00F0E335;
+					};
+					7AF0A4E6233509C100F0E335 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 7AF0A4C7233509BF00F0E335;
+					};
+				};
+			};
+			buildConfigurationList = 7AF0A4C3233509BF00F0E335 /* Build configuration list for PBXProject "SmartDraggableCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AF0A4BF233509BF00F0E335;
+			productRefGroup = 7AF0A4C9233509BF00F0E335 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AF0A4C7233509BF00F0E335 /* SmartDraggableCard */,
+				7AF0A4DB233509C100F0E335 /* SmartDraggableCardTests */,
+				7AF0A4E6233509C100F0E335 /* SmartDraggableCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AF0A4C6233509BF00F0E335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF0A4D6233509C100F0E335 /* LaunchScreen.storyboard in Resources */,
+				7AF0A4D3233509C100F0E335 /* Assets.xcassets in Resources */,
+				7AF0A4D1233509BF00F0E335 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF0A4DA233509C100F0E335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF0A4E5233509C100F0E335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AF0A4C4233509BF00F0E335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF0A4CE233509BF00F0E335 /* ViewController.swift in Sources */,
+				7AF0A4CC233509BF00F0E335 /* AppDelegate.swift in Sources */,
+				7AF0A4FA23350A1400F0E335 /* DraggableSendView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF0A4D8233509C100F0E335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF0A4E1233509C100F0E335 /* SmartDraggableCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF0A4E3233509C100F0E335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF0A4EC233509C100F0E335 /* SmartDraggableCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AF0A4DE233509C100F0E335 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AF0A4C7233509BF00F0E335 /* SmartDraggableCard */;
+			targetProxy = 7AF0A4DD233509C100F0E335 /* PBXContainerItemProxy */;
+		};
+		7AF0A4E9233509C100F0E335 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AF0A4C7233509BF00F0E335 /* SmartDraggableCard */;
+			targetProxy = 7AF0A4E8233509C100F0E335 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7AF0A4CF233509BF00F0E335 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AF0A4D0233509BF00F0E335 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AF0A4D4233509C100F0E335 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AF0A4D5233509C100F0E335 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AF0A4EE233509C100F0E335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AF0A4EF233509C100F0E335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AF0A4F1233509C100F0E335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76Z7X3XPGC;
+				INFOPLIST_FILE = SmartDraggableCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jae.SmartDraggableCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AF0A4F2233509C100F0E335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76Z7X3XPGC;
+				INFOPLIST_FILE = SmartDraggableCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jae.SmartDraggableCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7AF0A4F4233509C100F0E335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76Z7X3XPGC;
+				INFOPLIST_FILE = SmartDraggableCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jae.SmartDraggableCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartDraggableCard.app/SmartDraggableCard";
+			};
+			name = Debug;
+		};
+		7AF0A4F5233509C100F0E335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76Z7X3XPGC;
+				INFOPLIST_FILE = SmartDraggableCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jae.SmartDraggableCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartDraggableCard.app/SmartDraggableCard";
+			};
+			name = Release;
+		};
+		7AF0A4F7233509C100F0E335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76Z7X3XPGC;
+				INFOPLIST_FILE = SmartDraggableCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jae.SmartDraggableCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartDraggableCard;
+			};
+			name = Debug;
+		};
+		7AF0A4F8233509C100F0E335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76Z7X3XPGC;
+				INFOPLIST_FILE = SmartDraggableCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jae.SmartDraggableCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartDraggableCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AF0A4C3233509BF00F0E335 /* Build configuration list for PBXProject "SmartDraggableCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF0A4EE233509C100F0E335 /* Debug */,
+				7AF0A4EF233509C100F0E335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AF0A4F0233509C100F0E335 /* Build configuration list for PBXNativeTarget "SmartDraggableCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF0A4F1233509C100F0E335 /* Debug */,
+				7AF0A4F2233509C100F0E335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AF0A4F3233509C100F0E335 /* Build configuration list for PBXNativeTarget "SmartDraggableCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF0A4F4233509C100F0E335 /* Debug */,
+				7AF0A4F5233509C100F0E335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AF0A4F6233509C100F0E335 /* Build configuration list for PBXNativeTarget "SmartDraggableCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF0A4F7233509C100F0E335 /* Debug */,
+				7AF0A4F8233509C100F0E335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AF0A4C0233509BF00F0E335 /* Project object */;
+}
